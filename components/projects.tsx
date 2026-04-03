@@ -55,7 +55,7 @@ const projects = [
       "Vercel",
     ],
     github: "https://github.com/BuyNothingFunApp",
-    live: "https://nothing-app.vercel.app",
+    live: "https://nothing-client-app.vercel.app",
   },
 ];
 
