@@ -1,11 +1,12 @@
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { About } from "@/components/about";
-import { Skills } from "@/components/skills";
-import { Experience } from "@/components/experience";
+//import { Skills } from "@/components/skills";
+//import { Experience } from "@/components/experience";
 import { Projects } from "@/components/projects";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
+import { WritingPreview } from "@/components/Writing";
 
 export default function HomePage() {
   return (
@@ -13,9 +14,8 @@ export default function HomePage() {
       <Header />
       <Hero />
       <About />
-      <Skills />
-      <Experience />
       <Projects />
+      <WritingPreview />
       <Contact />
       <Footer />
     </main>

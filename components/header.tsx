@@ -6,11 +6,10 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
-  { href: "#about", label: "About" },
-  { href: "#skills", label: "Skills" },
-  { href: "#experience", label: "Experience" },
-  { href: "#projects", label: "Projects" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#about", label: "About" },
+  { href: "/#projects", label: "Projects" },
+  { href: "/#writing", label: "Writing" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export function Header() {
@@ -84,7 +83,7 @@ export function Header() {
                   key={link.href}
                   href={link.href}
                   className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium py-2"
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  onClick={() =>  (false)}
                 >
                   {link.label}
                 </Link>

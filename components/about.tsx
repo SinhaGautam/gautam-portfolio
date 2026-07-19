@@ -8,7 +8,7 @@ export function About() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
           <p className="text-muted-foreground text-lg">
-            Building digital experiences that make a difference
+            Engineer, builder, and future founder          
           </p>
         </div>
 
@@ -18,32 +18,14 @@ export function About() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="md:col-span-2 space-y-6">
                   <p className="text-muted-foreground leading-relaxed">
-                    I&apos;m a <span className="text-foreground font-medium">Senior Full-Stack .NET Engineer</span> with
-                    4+ years of enterprise experience building secure,
-                    distributed applications. I specialize in{" "}
-                    <span className="text-foreground font-medium">
-                      Generative AI
-                    </span>{" "}
-                    and{" "}
-                    <span className="text-foreground font-medium">
-                      Cloud-Native Systems
-                    </span>
-                    , using .NET, C#, NodeJS, React/Angular, and both SQL and
-                    NoSQL databases.
+                    I&apos;m a <span className="text-foreground font-medium">Full-Stack Software Engineer</span> who enjoys building products that sit at the intersection of backend systems, user experience, and practical problem-solving.
                   </p>
+                  
                   <p className="text-muted-foreground leading-relaxed">
-                    I have hands-on experience designing and implementing
-                    Generative AI solutions using Azure OpenAI,
-                    Retrieval-Augmented Generation (RAG), vector databases
-                    (pgvector), and event-driven microservices architecture.
-                  </p>
-                  <p className="text-muted-foreground leading-relaxed">
-                    My expertise includes containerization with Docker and
-                    Kubernetes, secure API development, CI/CD pipelines, and
-                    scalable system design. I&apos;m currently expanding my
-                    Azure-native deployment capabilities while specializing in
-                    enterprise AI architecture and prompt engineering.
-                  </p>
+I started programming because I wanted a career.
+Over time I realized software is one of the most powerful tools for building businesses.
+Today I work as an engineer while preparing for a future where I build products of my own.
+Everything I learn—from enterprise systems to AI—moves me one step closer to that goal.                   </p>
                 </div>
 
                 <div className="space-y-6">
@@ -64,12 +46,9 @@ export function About() {
                       <GraduationCap className="h-5 w-5" />
                     </div>
                     <div>
-                      <p className="font-medium text-foreground">Education</p>
+                      <p className="font-medium text-foreground">Open To</p>
                       <p className="text-sm text-muted-foreground">
-                        B.Tech in Electrical & Electronics Engineering
-                      </p>
-                      <p className="text-xs text-muted-foreground">
-                        Dr APJ Abdul Kalam Technical University, 2019
+                        Freelance projects, startup collaboration, and interesting product conversations
                       </p>
                     </div>
                   </div>

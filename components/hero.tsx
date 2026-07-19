@@ -21,7 +21,7 @@ export function Hero() {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
             </span>
             <span className="text-sm text-muted-foreground">
-              Open to opportunities
+                Building products, systems, and ideas on the internet
             </span>
           </div>
 
@@ -31,24 +31,23 @@ export function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-            Senior Full-Stack .NET Engineer
+            Building Software | Turning Ideas Into Products
           </p>
 
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed text-pretty">
-            Specializing in <span className="text-foreground font-medium">Generative AI</span> &{" "}
-            <span className="text-foreground font-medium">Cloud-Native Systems</span>. 4+ years
-            building secure, distributed applications using .NET, React, and Azure.
+            I’m a product-minded software engineer focused on turning complex ideas into reliable, usable software — from internal tools and enterprise platforms to experiments that can grow into startups.
+            My goal isn't just writing better code—it's creating products that solve real problems.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <Button size="lg" asChild>
               <Link href="#contact">
                 <Mail className="mr-2 h-4 w-4" />
-                Get in Touch
+                Contact Me
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="#projects">View Projects</Link>
+              <Link href="#projects">View My Work</Link>
             </Button>
           </div>
 
